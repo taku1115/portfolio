@@ -1,0 +1,31 @@
+.header {
+  background-image: url(https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE1ODB9);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  &__name {
+    padding-top: 200px;
+    font-size: 50px;
+    color: #ffffff;
+  }
+  &__title {
+    font-size: 70px;
+    color: #ffffff;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  &__subname {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 50px;
+  }
+  &__lists {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    li {
+      padding: 30px;
+      font-size: 25px;
+    }
+  }
+}
