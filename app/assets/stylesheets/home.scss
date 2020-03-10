@@ -3,6 +3,7 @@
   background-size: cover;
   height: 100vh;
   text-align: center;
+  margin-bottom: 20px;
   &__name {
     padding-top: 200px;
     font-size: 50px;
@@ -17,7 +18,13 @@
   &__subname {
     font-size: 30px;
     color: #ffffff;
-    padding-top: 50px;
+    padding-top: 60px;
+  }
+  &__message {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   &__lists {
     display: flex;
@@ -28,4 +35,76 @@
       font-size: 25px;
     }
   }
+}
+
+.about-me {
+  margin: 20px 200px;
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0 40% 20px 40%;
+  }
+  &__contents {
+    display: flex;
+    .account {
+      .account-img__NY {
+        width: 440px;
+        height: 330px;
+        padding-right: 50px;
+      }
+    }
+    .text {      
+    }
+  }
+}
+
+.works {
+  margin: 20px;
+  text-align: center;
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0 40% 20px 40%;
+  }
+  .aaa {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .work-img {
+    width: 380px;
+    height: 200px;
+  }
+}
+
+.skill {
+  margin: 20px;
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0 40% 20px 40%;
+  }
+}
+
+.contact {
+  margin: 20px;
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0 40% 20px 40%;
+  }
+}
+
+.footer {
+  background-color: #ECECEC;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+  -webkit-background-size: 14px 14px;
+  border-top: 1px solid black;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
 }

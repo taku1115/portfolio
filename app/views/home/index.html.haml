@@ -1,7 +1,8 @@
 .header
   %p.header__name Arakawa Takumi
-  %h1.header__title P o r t f o l i o S i t e
+  %h1.header__title P o r t f o l i o _ S i t e
   %p.header__subname 荒 川 拓 実 で す 。
+  %p.header__message よ ろ し く お 願 い し ま す 。
   %ul.header__lists
     %li -
     %li about me 
@@ -16,13 +17,27 @@
 
 .about-me
   %p.about-me__title About me
-  %p
-  %p
-  %p
+  .about-me__contents
+    .account
+      = image_tag "IMG_8380.JPG",class: "account-img__NY"
+    .atext
+      %p 1996年生まれ。23歳。
+      .career
+      %h1 経歴
+      %p 卒業
+      %h1 現在
+      %p Ruby学習中・転職活動中
+      %h1 将来像
+      %p エンジニア
+
 
 .works
   %p.works__title Works
-  %p
+  %p アウトプットアプリ
+  = link_to "myBeforeAfter","http://18.178.69.49/", class: "aaa"
+  %br/
+  = link_to image_tag("6e3cec35b4913d4ba6e91a70640a4b28.png",class: "work-img"),"http://18.178.69.49/"
+
   %p
   %p
 
@@ -39,4 +54,4 @@
   %p
 
 .footer
-  %small 荒川 拓実
+  %p 荒川 拓実
