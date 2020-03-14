@@ -53,8 +53,24 @@
         height: 330px;
         padding-right: 50px;
       }
+      .account-img__SB {
+        width: 440px;
+        height: 440px;
+        padding-right: 50px;
+        padding-top: 10px;
+      }
     }
-    .text {      
+    .text {
+      .career {
+        h1 {
+          font-size: 23px;
+          padding: 5px;
+        }
+        .min-title{
+          font-size: 18px;
+          color: red;
+        }
+      }      
     }
   }
 }
